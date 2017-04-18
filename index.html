@@ -6,11 +6,36 @@
 </head>
 <body>
 <div id="wrapper">
-	<div class="top-bar row">ini top bar</div>
+	<div class="top-bar row">Todo App</div>
 	<div class="row">
-		<div class="category w20">ini category</div>
-		<div class="todo w50">ini todo list</div>
-		<div class="sub-todo w30">ini sub todo</div>
+		<div class="category box w20">
+			<h3>Category</h3>
+			<ul>
+				<li class="selected">Kampus</li>
+				<li>Work</li>
+				<li>+ New Category</li>
+			</ul>
+		</div>
+		<div class="todo box w50">
+			<h3>Todo</h3>
+			<ul>
+				<li><input type="checkbox"> Tugas APB</li>
+				<li class="selected"><input type="checkbox">Tugas Kecerdasan Tiruan</li>
+				<li><input type="checkbox">Tugas Java</li>
+				<textarea name="komentar" rows="2" placeholder="New Todo.."></textarea>
+			</ul>
+		</div>
+		<div class="todo-property box w30">
+			<h3>Detail</h3>
+			<p>Due : 21 Apr 2017</p>
+			<ul>
+				<li><input type="checkbox" />Buat Makalah</li>
+				<li><input type="checkbox" />Kirim email ke dosen</li>
+			</ul>
+			<div>
+				<textarea name="komentar" rows="2" placeholder="Komentar .."></textarea>
+			</div>
+		</div>
 	</div>
 </div>
 </body>
